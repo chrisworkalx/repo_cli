@@ -1,6 +1,6 @@
 {
-  "name": "repo_cli",
-  "version": "1.0.17",
+  "name": "dream-children_repo_cli",
+  "version": "1.0.0",
   "description": "a lint demo ",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -14,7 +14,11 @@
   "files": [
     "dist"
   ],
-  "author": "xxx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisworkalx/repo_cli.git"
+  },
+  "author": "chirisworkalx",
   "license": "MIT",
   "private": false,
   "browserslist": [
