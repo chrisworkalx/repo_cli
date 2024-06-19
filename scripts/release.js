@@ -345,6 +345,7 @@ async function displayOptions(latestVersion) {
  */
 async function main() {
   try {
+    console.log("=====================开始喽哈哈哈=======================");
     const latestVersion = await getLatestVersion();
     await displayOptions(latestVersion);
   } catch (error) {
